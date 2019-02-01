@@ -19,6 +19,11 @@
 		6717BD3E22043CB600576652 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6717BD3D22043CB600576652 /* Artist.swift */; };
 		6717BD4022043CF100576652 /* ArtistsDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6717BD3F22043CF100576652 /* ArtistsDAO.swift */; };
 		6717BD42220444AA00576652 /* ArtistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6717BD41220444AA00576652 /* ArtistViewController.swift */; };
+		6717BD442204493D00576652 /* Snack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6717BD432204493C00576652 /* Snack.swift */; };
+		6717BD462204497F00576652 /* SnacksDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6717BD452204497F00576652 /* SnacksDAO.swift */; };
+		6717BD4822044AAE00576652 /* SnackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6717BD4722044AAE00576652 /* SnackViewController.swift */; };
+		67586E7E22044EF100A8C7C0 /* Drinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67586E7D22044EF100A8C7C0 /* Drinks.swift */; };
+		67586E8022044F0200A8C7C0 /* BarsDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67586E7F22044F0200A8C7C0 /* BarsDAO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +41,11 @@
 		6717BD3D22043CB600576652 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		6717BD3F22043CF100576652 /* ArtistsDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsDAO.swift; sourceTree = "<group>"; };
 		6717BD41220444AA00576652 /* ArtistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistViewController.swift; sourceTree = "<group>"; };
+		6717BD432204493C00576652 /* Snack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snack.swift; sourceTree = "<group>"; };
+		6717BD452204497F00576652 /* SnacksDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnacksDAO.swift; sourceTree = "<group>"; };
+		6717BD4722044AAE00576652 /* SnackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackViewController.swift; sourceTree = "<group>"; };
+		67586E7D22044EF100A8C7C0 /* Drinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drinks.swift; sourceTree = "<group>"; };
+		67586E7F22044F0200A8C7C0 /* BarsDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarsDAO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +97,10 @@
 				6717BD3B2204214400576652 /* PodiumsDAO.swift */,
 				6717BD3D22043CB600576652 /* Artist.swift */,
 				6717BD3F22043CF100576652 /* ArtistsDAO.swift */,
+				6717BD432204493C00576652 /* Snack.swift */,
+				6717BD452204497F00576652 /* SnacksDAO.swift */,
+				67586E7D22044EF100A8C7C0 /* Drinks.swift */,
+				67586E7F22044F0200A8C7C0 /* BarsDAO.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -97,6 +111,7 @@
 				6717BD1C22032A2200576652 /* ViewController.swift */,
 				6717BD372204201F00576652 /* PodiumViewController.swift */,
 				6717BD41220444AA00576652 /* ArtistViewController.swift */,
+				6717BD4722044AAE00576652 /* SnackViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -174,11 +189,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				6717BD4022043CF100576652 /* ArtistsDAO.swift in Sources */,
+				67586E8022044F0200A8C7C0 /* BarsDAO.swift in Sources */,
+				67586E7E22044EF100A8C7C0 /* Drinks.swift in Sources */,
 				6717BD3E22043CB600576652 /* Artist.swift in Sources */,
 				6717BD382204201F00576652 /* PodiumViewController.swift in Sources */,
+				6717BD4822044AAE00576652 /* SnackViewController.swift in Sources */,
+				6717BD462204497F00576652 /* SnacksDAO.swift in Sources */,
 				6717BD42220444AA00576652 /* ArtistViewController.swift in Sources */,
 				6717BD3A220420A100576652 /* Podium.swift in Sources */,
 				6717BD3C2204214400576652 /* PodiumsDAO.swift in Sources */,
+				6717BD442204493D00576652 /* Snack.swift in Sources */,
 				6717BD1D22032A2200576652 /* ViewController.swift in Sources */,
 				6717BD1B22032A2200576652 /* AppDelegate.swift in Sources */,
 			);

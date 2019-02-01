@@ -1,5 +1,5 @@
 //
-//  ArtistViewController.swift
+//  SnackViewController.swift
 //  IOS project Chiel
 //
 //  Created by chiel bleyenbergh on 01/02/2019.
@@ -8,12 +8,11 @@
 
 import UIKit
 
-class ArtistViewController: UIViewController, UITabBarDelegate, UITableViewDataSource {
+class SnackViewController: UIViewController, UITableViewDataSource, UITabBarDelegate {
     
     
     @IBOutlet weak var tblView: UITableView!
-    let artists = ArtistsDAO.init()
-    
+    let snacks = SnackDAO.init()
     
     
     override func viewDidLoad() {
@@ -29,18 +28,20 @@ class ArtistViewController: UIViewController, UITabBarDelegate, UITableViewDataS
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return artists.artists.count
+        return snacks.snacks.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell:UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "cellArtists")!
+        let cell:UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "cellSnacks")!
         
-        let artist = artists.artists[indexPath.row]
+        let artist = snacks.snacks[indexPath.row]
         
         cell.textLabel!.text = artist.name
         
         return cell
     }
+    
+
     /*
     // MARK: - Navigation
 

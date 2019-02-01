@@ -10,7 +10,7 @@ import Foundation
 
 class ArtistsDAO {
     
-    var Artists:[Artist]
+    var artists:[Artist]
     
     init() {
         let reelBigFish = Artist.init(name: "Reel Big Fish", genre: "R&B")
@@ -20,7 +20,7 @@ class ArtistsDAO {
         let goldfish = Artist.init(name: "Goldfish", genre: "Deep House")
         let zander = Artist.init(name: "Zander", genre: "drum and bass")
         
-        self.Artists = [reelBigFish, swashbuckle, admiralFreebie, siameseFighting, goldfish, zander]
+        self.artists = [reelBigFish, swashbuckle, admiralFreebie, siameseFighting, goldfish, zander]
         
     }
     
