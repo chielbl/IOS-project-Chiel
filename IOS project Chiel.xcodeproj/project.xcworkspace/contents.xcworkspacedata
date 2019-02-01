@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/chielbleyenbergh/Documents/VDAB/IOS/IOS Eindprject Chiel Bleyenbergh /IOS project Chiel/IOS project Chiel/vistival.jpg">
+   </FileRef>
+   <FileRef
+      location = "group:img_9541.png">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/chielbleyenbergh/Documents/VDAB/IOS/IOS Eindprject Chiel Bleyenbergh /IOS project Chiel/IOS project Chiel/Pattaya-Arts-Festival-Pattaya-beach-thailand-map.jpg">
+   </FileRef>
+   <FileRef
       location = "self:IOS project Chiel.xcodeproj">
    </FileRef>
 </Workspace>

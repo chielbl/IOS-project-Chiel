@@ -12,6 +12,12 @@
 		6717BD2022032A2200576652 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6717BD1E22032A2200576652 /* Main.storyboard */; };
 		6717BD2222032A2400576652 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6717BD2122032A2400576652 /* Assets.xcassets */; };
 		6717BD2522032A2400576652 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6717BD2322032A2400576652 /* LaunchScreen.storyboard */; };
+		6717BD3422035DE100576652 /* Schermafbeelding .png in Resources */ = {isa = PBXBuildFile; fileRef = 6717BD3322035DE100576652 /* Schermafbeelding .png */; };
+		6717BD382204201F00576652 /* PodiumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6717BD372204201F00576652 /* PodiumViewController.swift */; };
+		6717BD3A220420A100576652 /* Podium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6717BD39220420A100576652 /* Podium.swift */; };
+		6717BD3C2204214400576652 /* PodiumsDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6717BD3B2204214400576652 /* PodiumsDAO.swift */; };
+		6717BD3E22043CB600576652 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6717BD3D22043CB600576652 /* Artist.swift */; };
+		6717BD4022043CF100576652 /* ArtistsDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6717BD3F22043CF100576652 /* ArtistsDAO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		6717BD2122032A2400576652 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6717BD2422032A2400576652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6717BD2622032A2400576652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6717BD3322035DE100576652 /* Schermafbeelding .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Schermafbeelding .png"; sourceTree = "<group>"; };
+		6717BD372204201F00576652 /* PodiumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodiumViewController.swift; sourceTree = "<group>"; };
+		6717BD39220420A100576652 /* Podium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Podium.swift; sourceTree = "<group>"; };
+		6717BD3B2204214400576652 /* PodiumsDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodiumsDAO.swift; sourceTree = "<group>"; };
+		6717BD3D22043CB600576652 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		6717BD3F22043CF100576652 /* ArtistsDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsDAO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +66,36 @@
 		6717BD1922032A2200576652 /* IOS project Chiel */ = {
 			isa = PBXGroup;
 			children = (
+				6717BD3622041F8F00576652 /* Controller */,
+				6717BD3522041F8200576652 /* Model */,
 				6717BD1A22032A2200576652 /* AppDelegate.swift */,
-				6717BD1C22032A2200576652 /* ViewController.swift */,
 				6717BD1E22032A2200576652 /* Main.storyboard */,
 				6717BD2122032A2400576652 /* Assets.xcassets */,
 				6717BD2322032A2400576652 /* LaunchScreen.storyboard */,
 				6717BD2622032A2400576652 /* Info.plist */,
+				6717BD3322035DE100576652 /* Schermafbeelding .png */,
 			);
 			path = "IOS project Chiel";
+			sourceTree = "<group>";
+		};
+		6717BD3522041F8200576652 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6717BD39220420A100576652 /* Podium.swift */,
+				6717BD3B2204214400576652 /* PodiumsDAO.swift */,
+				6717BD3D22043CB600576652 /* Artist.swift */,
+				6717BD3F22043CF100576652 /* ArtistsDAO.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6717BD3622041F8F00576652 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6717BD1C22032A2200576652 /* ViewController.swift */,
+				6717BD372204201F00576652 /* PodiumViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +159,7 @@
 				6717BD2522032A2400576652 /* LaunchScreen.storyboard in Resources */,
 				6717BD2222032A2400576652 /* Assets.xcassets in Resources */,
 				6717BD2022032A2200576652 /* Main.storyboard in Resources */,
+				6717BD3422035DE100576652 /* Schermafbeelding .png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +170,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6717BD4022043CF100576652 /* ArtistsDAO.swift in Sources */,
+				6717BD3E22043CB600576652 /* Artist.swift in Sources */,
+				6717BD382204201F00576652 /* PodiumViewController.swift in Sources */,
+				6717BD3A220420A100576652 /* Podium.swift in Sources */,
+				6717BD3C2204214400576652 /* PodiumsDAO.swift in Sources */,
 				6717BD1D22032A2200576652 /* ViewController.swift in Sources */,
 				6717BD1B22032A2200576652 /* AppDelegate.swift in Sources */,
 			);
@@ -291,7 +331,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "be.ehb.IOS-project-Chiel";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,7 +348,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "be.ehb.IOS-project-Chiel";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
