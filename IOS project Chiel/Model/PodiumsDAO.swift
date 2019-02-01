@@ -14,7 +14,7 @@ class PodiumsDAO {
     
     init() {
         let stage1 = Podium.init(name: "Mainstage")
-        let stage2 = Podium.init(name: "Fishtage")
+        let stage2 = Podium.init(name: "Fishstage")
         
         self.stages = [stage1, stage2]
         

@@ -19,8 +19,12 @@ class ArtistsDAO {
         let siameseFighting = Artist.init(name: "Siamese Fighting", genre: "House")
         let goldfish = Artist.init(name: "Goldfish", genre: "Deep House")
         let zander = Artist.init(name: "Zander", genre: "drum and bass")
+        let europeanSeabass = Artist.init(name: "European Seabass", genre: "drum and bass")
+        let northernPike = Artist.init(name: "Northern Pike", genre: "Hardcore")
+        let swordFish = Artist.init(name: "Sword Fish", genre: "R&B")
         
-        self.artists = [reelBigFish, swashbuckle, admiralFreebie, siameseFighting, goldfish, zander]
+        
+        self.artists = [reelBigFish, swashbuckle, admiralFreebie, siameseFighting, goldfish, zander, europeanSeabass, northernPike, swordFish]
         
     }
     
