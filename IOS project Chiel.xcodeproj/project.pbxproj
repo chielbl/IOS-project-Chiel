@@ -24,6 +24,7 @@
 		6717BD4822044AAE00576652 /* SnackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6717BD4722044AAE00576652 /* SnackViewController.swift */; };
 		67586E7E22044EF100A8C7C0 /* Drinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67586E7D22044EF100A8C7C0 /* Drinks.swift */; };
 		67586E8022044F0200A8C7C0 /* BarsDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67586E7F22044F0200A8C7C0 /* BarsDAO.swift */; };
+		67586E82220450DA00A8C7C0 /* BarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67586E81220450DA00A8C7C0 /* BarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		6717BD4722044AAE00576652 /* SnackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackViewController.swift; sourceTree = "<group>"; };
 		67586E7D22044EF100A8C7C0 /* Drinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drinks.swift; sourceTree = "<group>"; };
 		67586E7F22044F0200A8C7C0 /* BarsDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarsDAO.swift; sourceTree = "<group>"; };
+		67586E81220450DA00A8C7C0 /* BarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				6717BD372204201F00576652 /* PodiumViewController.swift */,
 				6717BD41220444AA00576652 /* ArtistViewController.swift */,
 				6717BD4722044AAE00576652 /* SnackViewController.swift */,
+				67586E81220450DA00A8C7C0 /* BarViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 				6717BD3E22043CB600576652 /* Artist.swift in Sources */,
 				6717BD382204201F00576652 /* PodiumViewController.swift in Sources */,
 				6717BD4822044AAE00576652 /* SnackViewController.swift in Sources */,
+				67586E82220450DA00A8C7C0 /* BarViewController.swift in Sources */,
 				6717BD462204497F00576652 /* SnacksDAO.swift in Sources */,
 				6717BD42220444AA00576652 /* ArtistViewController.swift in Sources */,
 				6717BD3A220420A100576652 /* Podium.swift in Sources */,

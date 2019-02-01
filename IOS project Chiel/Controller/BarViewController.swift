@@ -1,5 +1,5 @@
 //
-//  SnackViewController.swift
+//  BarViewController.swift
 //  IOS project Chiel
 //
 //  Created by chiel bleyenbergh on 01/02/2019.
@@ -8,11 +8,10 @@
 
 import UIKit
 
-class SnackViewController: UIViewController, UITableViewDataSource, UITabBarDelegate {
-    
-    
+class BarViewController: UIViewController, UITableViewDataSource, UITabBarDelegate {
+
     @IBOutlet weak var tblView: UITableView!
-    let snacks = SnackDAO.init()
+    let bars = BarsDAO.init()
     
     
     override func viewDidLoad() {
@@ -28,15 +27,15 @@ class SnackViewController: UIViewController, UITableViewDataSource, UITabBarDele
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return snacks.snacks.count
+        return bars.bars.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell:UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "cellSnacks")!
+        let cell:UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "cellBars")!
         
-        let snack = snacks.snacks[indexPath.row]
+        let drank = bars.bars[indexPath.row]
         
-        cell.textLabel!.text = snack.name
+        cell.textLabel!.text = drank.name
         
         return cell
     }

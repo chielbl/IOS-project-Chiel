@@ -402,7 +402,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="ZSU-f2-FM3">
-                                <rect key="frame" x="0.0" y="44" width="375" height="768"/>
+                                <rect key="frame" x="0.0" y="88" width="375" height="724"/>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" red="0.2830524742603302" green="0.70315283536911011" blue="0.89085006713867188" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -433,12 +433,12 @@
         <!--Bars-->
         <scene sceneID="RcR-vA-vVf">
             <objects>
-                <viewController id="Roo-et-yWd" sceneMemberID="viewController">
+                <viewController id="Roo-et-yWd" customClass="BarViewController" customModule="IOS_project_Chiel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mv3-dt-yIK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="50" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ft7-Hl-G5c">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="50" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="ft7-Hl-G5c">
                                 <rect key="frame" x="0.0" y="88" width="375" height="724"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
@@ -446,13 +446,13 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="TqX-9n-hkD" id="IBo-c5-x1J">
-                                            <rect key="frame" x="0.0" y="0.0" width="342" height="49.666666666666664"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="50"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="BwI-yu-8Lu">
-                                                    <rect key="frame" x="15" y="0.0" width="325" height="49.666666666666664"/>
+                                                    <rect key="frame" x="15" y="0.0" width="325" height="50"/>
                                                     <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -463,6 +463,10 @@
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="Roo-et-yWd" id="XtW-q8-4VD"/>
+                                    <outlet property="delegate" destination="Roo-et-yWd" id="rCe-tU-8Qb"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" red="0.28305247430000002" green="0.70315283539999995" blue="0.89085006710000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -475,6 +479,9 @@
                         <viewLayoutGuide key="safeArea" id="rCt-o1-ukP"/>
                     </view>
                     <navigationItem key="navigationItem" title="Bars" id="JT3-fZ-LjX"/>
+                    <connections>
+                        <outlet property="tblView" destination="ft7-Hl-G5c" id="B3g-nL-x0y"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u3d-qE-SAJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -482,6 +489,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="c6j-Aw-pOh"/>
+        <segue reference="PI7-vy-7Y8"/>
     </inferredMetricsTieBreakers>
 </document>
