@@ -128,11 +128,11 @@
 				6717BD1C22032A2200576652 /* ViewController.swift */,
 				6717BD372204201F00576652 /* PodiumViewController.swift */,
 				6717BD41220444AA00576652 /* ArtistViewController.swift */,
+				67586E8F22048A4F00A8C7C0 /* InfoViewController.swift */,
 				6717BD4722044AAE00576652 /* SnackViewController.swift */,
 				67586E81220450DA00A8C7C0 /* BarViewController.swift */,
 				67586E8B22047CFB00A8C7C0 /* LineUpViewController.swift */,
 				67586E8D22047F2100A8C7C0 /* LineUpTableViewCell.swift */,
-				67586E8F22048A4F00A8C7C0 /* InfoViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";

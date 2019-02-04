@@ -10,21 +10,21 @@ import UIKit
 
 class InfoViewController: UIViewController {
 
+    @IBOutlet weak var IMGView: UIImageView!
+    @IBOutlet weak var lblName: UILabel!
+    @IBOutlet weak var lblGenre: UILabel!
+    
+    var selectedArtist:Artist?
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        lblName.text = selectedArtist!.name
+        lblGenre.text = selectedArtist!.genre
+        
         // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

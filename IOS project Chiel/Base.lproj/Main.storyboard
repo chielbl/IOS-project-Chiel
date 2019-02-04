@@ -213,7 +213,11 @@
                             </tableView>
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="htW-pb-xbi">
                                 <rect key="frame" x="0.0" y="88" width="375" height="56"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <color key="barTintColor" red="0.77563959360000001" green="0.92918008569999999" blue="0.97563284640000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" keyboardType="namePhonePad"/>
+                                <connections>
+                                    <outlet property="delegate" destination="0gC-2k-0AD" id="HZ8-Kw-5T3"/>
+                                </connections>
                             </searchBar>
                         </subviews>
                         <color key="backgroundColor" red="0.28305247430000002" green="0.70315283539999995" blue="0.89085006710000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -230,6 +234,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Artists" id="ACg-CQ-wPh"/>
                     <connections>
+                        <outlet property="SBSearchBar" destination="htW-pb-xbi" id="hjL-l6-vhb"/>
                         <outlet property="tblView" destination="12b-PD-qrd" id="Ue2-ZM-LVA"/>
                     </connections>
                 </viewController>
@@ -240,29 +245,28 @@
         <!--Info-->
         <scene sceneID="c9d-Kf-3Dx">
             <objects>
-                <viewController id="qgw-3m-xCJ" sceneMemberID="viewController">
+                <viewController id="qgw-3m-xCJ" customClass="InfoViewController" customModule="IOS_project_Chiel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RMQ-ce-HWz">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y7C-HF-ll8">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Y7C-HF-ll8">
                                 <rect key="frame" x="0.0" y="88" width="375" height="375"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="375" id="ASf-Xh-PEU"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e5k-gr-bAJ">
-                                <rect key="frame" x="100" y="483" width="175" height="100"/>
+                                <rect key="frame" x="50" y="483" width="275" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="ghm-ZE-5Wk"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="30"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Genre" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XJV-vN-Zil">
-                                <rect key="frame" x="166" y="591" width="55" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Genre" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XJV-vN-Zil">
+                                <rect key="frame" x="100" y="603" width="175" height="24"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -270,16 +274,25 @@
                         </subviews>
                         <color key="backgroundColor" red="0.28305247430000002" green="0.70315283539999995" blue="0.89085006710000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="e5k-gr-bAJ" firstAttribute="leading" secondItem="gm9-Xi-13q" secondAttribute="leading" constant="100" id="47i-GC-TcA"/>
+                            <constraint firstItem="e5k-gr-bAJ" firstAttribute="leading" secondItem="gm9-Xi-13q" secondAttribute="leading" constant="50" id="47i-GC-TcA"/>
                             <constraint firstItem="e5k-gr-bAJ" firstAttribute="top" secondItem="Y7C-HF-ll8" secondAttribute="bottom" constant="20" id="GSM-nJ-70b"/>
-                            <constraint firstItem="gm9-Xi-13q" firstAttribute="trailing" secondItem="e5k-gr-bAJ" secondAttribute="trailing" constant="100" id="K6y-C1-lEX"/>
+                            <constraint firstItem="gm9-Xi-13q" firstAttribute="trailing" secondItem="e5k-gr-bAJ" secondAttribute="trailing" constant="50" id="K6y-C1-lEX"/>
+                            <constraint firstItem="XJV-vN-Zil" firstAttribute="leading" secondItem="gm9-Xi-13q" secondAttribute="leading" constant="100" id="UWo-eL-qQF"/>
+                            <constraint firstItem="gm9-Xi-13q" firstAttribute="trailing" secondItem="XJV-vN-Zil" secondAttribute="trailing" constant="100" id="Xbh-Sa-znT"/>
+                            <constraint firstItem="Y7C-HF-ll8" firstAttribute="leading" secondItem="RMQ-ce-HWz" secondAttribute="leading" id="aGZ-Sz-jpP"/>
                             <constraint firstItem="e5k-gr-bAJ" firstAttribute="centerX" secondItem="RMQ-ce-HWz" secondAttribute="centerX" id="cnu-it-fz2"/>
+                            <constraint firstItem="XJV-vN-Zil" firstAttribute="top" secondItem="e5k-gr-bAJ" secondAttribute="bottom" constant="20" id="opr-Qk-Eao"/>
                             <constraint firstItem="Y7C-HF-ll8" firstAttribute="top" secondItem="gm9-Xi-13q" secondAttribute="top" id="x8i-c4-aoP"/>
                             <constraint firstItem="Y7C-HF-ll8" firstAttribute="centerX" secondItem="RMQ-ce-HWz" secondAttribute="centerX" id="xkA-xi-420"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="gm9-Xi-13q"/>
                     </view>
                     <navigationItem key="navigationItem" title="Info" id="HPh-ii-PRk"/>
+                    <connections>
+                        <outlet property="IMGView" destination="Y7C-HF-ll8" id="9sB-el-IYA"/>
+                        <outlet property="lblGenre" destination="XJV-vN-Zil" id="rkH-M9-kz1"/>
+                        <outlet property="lblName" destination="e5k-gr-bAJ" id="qdg-Wz-R1o"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kTu-jn-Ye9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
