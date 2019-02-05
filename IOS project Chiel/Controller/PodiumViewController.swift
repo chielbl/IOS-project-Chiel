@@ -33,11 +33,12 @@ class PodiumViewController: UIViewController, UITableViewDataSource, UITableView
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell:UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "cellPodium")!
+        let cell:TableViewCell = tableView.dequeueReusableCell(withIdentifier: "cellPodium") as! TableViewCell
         
         let podium = podiums.stages![indexPath.row]
         
-        cell.textLabel!.text = podium.name
+        cell.lblTitle.text = podium.name
+        cell.imgView.image = UIImage.init(named: podium.image!)
         
         return cell
     }

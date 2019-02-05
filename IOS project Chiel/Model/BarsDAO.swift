@@ -14,9 +14,9 @@ class BarsDAO {
     
     init() {
         
-        let frisdrank = Drinks.init(name: "Frisdrank")
-        let alcohol = Drinks.init(name: "Alcohol")
-        let frisAlc = Drinks.init(name: "Frisdrank & Alcohol")
+        let frisdrank = Drinks.init(name: "Frisdrank", image: "frisdrank.jpg")
+        let alcohol = Drinks.init(name: "Alcohol", image: "alcohol.jpg")
+        let frisAlc = Drinks.init(name: "Fris & Alcohol", image: "frisbieren.jpg")
         
         self.bars = [frisdrank, alcohol, frisAlc]
         

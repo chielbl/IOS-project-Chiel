@@ -13,8 +13,8 @@ class PodiumsDAO {
     var stages:[Podium]?
     
     init() {
-        let stage1 = Podium.init(name: "Mainstage")
-        let stage2 = Podium.init(name: "Fishstage")
+        let stage1 = Podium.init(name: "Mainstage", image: "Mainstage.png")
+        let stage2 = Podium.init(name: "Fishstage", image: "Fishstage.png")
         
         self.stages = [stage1, stage2]
         

@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:IOS project Chiel.xcodeproj">
+      location = "group:/Users/chielbleyenbergh/Documents/VDAB/IOS/IOS Eindprject Chiel Bleyenbergh /IOS project Chiel/IOS project Chiel/Images/Fishstage.png">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/chielbleyenbergh/Documents/VDAB/IOS/IOS Eindprject Chiel Bleyenbergh /IOS project Chiel/IOS project Chiel/Images/Mainstage.png">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

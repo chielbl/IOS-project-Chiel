@@ -32,11 +32,12 @@ class SnackViewController: UIViewController, UITableViewDataSource, UITabBarDele
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell:UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "cellSnacks")!
+        let cell:TableViewCell = tableView.dequeueReusableCell(withIdentifier: "cellSnacks") as! TableViewCell
         
         let snack = snacks.snacks[indexPath.row]
         
-        cell.textLabel!.text = snack.name
+        cell.lblTitle!.text = snack.name
+        cell.imgView.image = UIImage.init(named: snack.image!)
         
         return cell
     }

@@ -22,6 +22,7 @@ class InfoViewController: UIViewController {
         
         lblName.text = selectedArtist!.name
         lblGenre.text = selectedArtist!.genre
+        IMGView.image = UIImage.init(named: selectedArtist!.image!)
         
         // Do any additional setup after loading the view.
     }

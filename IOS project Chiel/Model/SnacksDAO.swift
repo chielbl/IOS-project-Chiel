@@ -14,11 +14,11 @@ class SnackDAO {
     
     init() {
         
-        let pizza = Snack.init(name: "Pizza")
-        let frieten = Snack.init(name: "Frieten")
-        let pita = Snack.init(name: "Pita")
-        let veggie = Snack.init(name: "Veggie")
-        let chinees = Snack.init(name: "Chinees")
+        let pizza = Snack.init(name: "Pizza", image: "pizza.png")
+        let frieten = Snack.init(name: "Frieten", image: "frieten.jpg")
+        let pita = Snack.init(name: "Pita", image: "pita.png")
+        let veggie = Snack.init(name: "Veggie", image: "vegie.jpg")
+        let chinees = Snack.init(name: "Chinees", image: "chinees.jpg")
         
         self.snacks = [pizza, frieten, pita, veggie, chinees]
         

@@ -12,10 +12,12 @@ class Artist {
     
     var name:String?
     var genre:String?
+    var image:String?
     
     
-    init(name:String, genre:String) {
+    init(name:String, genre:String, image:String) {
         self.name = name
         self.genre = genre
+        self.image = image
     }
 }

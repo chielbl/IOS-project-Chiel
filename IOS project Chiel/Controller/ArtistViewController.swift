@@ -63,17 +63,20 @@ class ArtistViewController: UIViewController, UITabBarDelegate, UITableViewDataS
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell:UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "cellArtists")!
+        let cell:TableViewCell = tableView.dequeueReusableCell(withIdentifier: "cellArtists") as! TableViewCell
         
         if shouldShowSearchResult {
-            cell.textLabel!.text = filteredArray[indexPath.row]
+            let artist = artists.artists[indexPath.row]
+            cell.lblTitle!.text = artist.name
+            cell.imgView.image = UIImage.init(named: artist.image!)
             return cell
         }
         else{
             let artist = artists.artists[indexPath.row]
             artistList.append(artist.name!)
             
-            cell.textLabel!.text = artist.name
+            cell.lblTitle!.text = artist.name
+            cell.imgView.image = UIImage.init(named: artist.image!)
             return cell
         }
     }

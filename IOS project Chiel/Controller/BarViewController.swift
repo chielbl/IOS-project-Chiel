@@ -31,11 +31,12 @@ class BarViewController: UIViewController, UITableViewDataSource, UITabBarDelega
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell:UITableViewCell = tableView.dequeueReusableCell(withIdentifier: "cellBars")!
+        let cell:TableViewCell = tableView.dequeueReusableCell(withIdentifier: "cellBars") as! TableViewCell
         
         let drank = bars.bars[indexPath.row]
         
-        cell.textLabel!.text = drank.name
+        cell.lblTitle.text = drank.name!
+        cell.imgView.image = UIImage.init(named: drank.image!)
         
         return cell
     }

@@ -12,7 +12,6 @@
 		6717BD2022032A2200576652 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6717BD1E22032A2200576652 /* Main.storyboard */; };
 		6717BD2222032A2400576652 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6717BD2122032A2400576652 /* Assets.xcassets */; };
 		6717BD2522032A2400576652 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6717BD2322032A2400576652 /* LaunchScreen.storyboard */; };
-		6717BD3422035DE100576652 /* Schermafbeelding .png in Resources */ = {isa = PBXBuildFile; fileRef = 6717BD3322035DE100576652 /* Schermafbeelding .png */; };
 		6717BD382204201F00576652 /* PodiumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6717BD372204201F00576652 /* PodiumViewController.swift */; };
 		6717BD3A220420A100576652 /* Podium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6717BD39220420A100576652 /* Podium.swift */; };
 		6717BD3C2204214400576652 /* PodiumsDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6717BD3B2204214400576652 /* PodiumsDAO.swift */; };
@@ -31,6 +30,30 @@
 		67586E8C22047CFB00A8C7C0 /* LineUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67586E8B22047CFB00A8C7C0 /* LineUpViewController.swift */; };
 		67586E8E22047F2100A8C7C0 /* LineUpTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67586E8D22047F2100A8C7C0 /* LineUpTableViewCell.swift */; };
 		67586E9022048A4F00A8C7C0 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67586E8F22048A4F00A8C7C0 /* InfoViewController.swift */; };
+		6785FA4B220970920030D372 /* Mainstage.png in Resources */ = {isa = PBXBuildFile; fileRef = 6785FA49220970900030D372 /* Mainstage.png */; };
+		6785FA4C220970920030D372 /* Fishstage.png in Resources */ = {isa = PBXBuildFile; fileRef = 6785FA4A220970910030D372 /* Fishstage.png */; };
+		6785FA50220981010030D372 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6785FA4F220981010030D372 /* TableViewCell.swift */; };
+		6785FA6C22098A4A0030D372 /* AdmiralFreebie.png in Resources */ = {isa = PBXBuildFile; fileRef = 6785FA6322098A470030D372 /* AdmiralFreebie.png */; };
+		6785FA6D22098A4A0030D372 /* NorthernPike.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6785FA6422098A470030D372 /* NorthernPike.jpg */; };
+		6785FA6E22098A4A0030D372 /* Swashbuckle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6785FA6522098A480030D372 /* Swashbuckle.jpg */; };
+		6785FA6F22098A4A0030D372 /* SwordFish.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6785FA6622098A480030D372 /* SwordFish.jpg */; };
+		6785FA7022098A4A0030D372 /* Goldfish.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6785FA6722098A490030D372 /* Goldfish.jpg */; };
+		6785FA7122098A4A0030D372 /* EuropeanSeabass.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6785FA6822098A490030D372 /* EuropeanSeabass.jpeg */; };
+		6785FA7222098A4A0030D372 /* SiameseFighting.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6785FA6922098A490030D372 /* SiameseFighting.jpg */; };
+		6785FA7322098A4A0030D372 /* Zander.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6785FA6A22098A490030D372 /* Zander.jpg */; };
+		6785FA7422098A4A0030D372 /* reelBigFish.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6785FA6B22098A4A0030D372 /* reelBigFish.jpg */; };
+		6785FA7B22098FB10030D372 /* chinees.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6785FA7622098FB00030D372 /* chinees.jpg */; };
+		6785FA7D22098FB10030D372 /* vegie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6785FA7822098FB00030D372 /* vegie.jpg */; };
+		6785FA7E22098FB10030D372 /* frieten.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6785FA7922098FB10030D372 /* frieten.jpg */; };
+		6785FA81220992400030D372 /* pizza.png in Resources */ = {isa = PBXBuildFile; fileRef = 6785FA7F2209923F0030D372 /* pizza.png */; };
+		6785FA82220992400030D372 /* pita.png in Resources */ = {isa = PBXBuildFile; fileRef = 6785FA80220992400030D372 /* pita.png */; };
+		6785FA862209987E0030D372 /* alcohol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6785FA832209987D0030D372 /* alcohol.jpg */; };
+		6785FA872209987E0030D372 /* frisbieren.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6785FA842209987D0030D372 /* frisbieren.jpg */; };
+		6785FA882209987E0030D372 /* frisdrank.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6785FA852209987D0030D372 /* frisdrank.jpg */; };
+		67A702322208343200F1E50A /* Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A702312208343200F1E50A /* Annotation.swift */; };
+		67A70234220835B600F1E50A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A70233220835B600F1E50A /* MapViewController.swift */; };
+		67A702362208370A00F1E50A /* AnnotationDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A702352208370A00F1E50A /* AnnotationDAO.swift */; };
+		67A7023822084FB100F1E50A /* VisFestival.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67A7023722084FB100F1E50A /* VisFestival.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,7 +64,6 @@
 		6717BD2122032A2400576652 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6717BD2422032A2400576652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6717BD2622032A2400576652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6717BD3322035DE100576652 /* Schermafbeelding .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Schermafbeelding .png"; sourceTree = "<group>"; };
 		6717BD372204201F00576652 /* PodiumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodiumViewController.swift; sourceTree = "<group>"; };
 		6717BD39220420A100576652 /* Podium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Podium.swift; sourceTree = "<group>"; };
 		6717BD3B2204214400576652 /* PodiumsDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodiumsDAO.swift; sourceTree = "<group>"; };
@@ -60,6 +82,30 @@
 		67586E8B22047CFB00A8C7C0 /* LineUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineUpViewController.swift; sourceTree = "<group>"; };
 		67586E8D22047F2100A8C7C0 /* LineUpTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineUpTableViewCell.swift; sourceTree = "<group>"; };
 		67586E8F22048A4F00A8C7C0 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		6785FA49220970900030D372 /* Mainstage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mainstage.png; sourceTree = "<group>"; };
+		6785FA4A220970910030D372 /* Fishstage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fishstage.png; sourceTree = "<group>"; };
+		6785FA4F220981010030D372 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		6785FA6322098A470030D372 /* AdmiralFreebie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AdmiralFreebie.png; sourceTree = "<group>"; };
+		6785FA6422098A470030D372 /* NorthernPike.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NorthernPike.jpg; sourceTree = "<group>"; };
+		6785FA6522098A480030D372 /* Swashbuckle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Swashbuckle.jpg; sourceTree = "<group>"; };
+		6785FA6622098A480030D372 /* SwordFish.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SwordFish.jpg; sourceTree = "<group>"; };
+		6785FA6722098A490030D372 /* Goldfish.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Goldfish.jpg; sourceTree = "<group>"; };
+		6785FA6822098A490030D372 /* EuropeanSeabass.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EuropeanSeabass.jpeg; sourceTree = "<group>"; };
+		6785FA6922098A490030D372 /* SiameseFighting.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SiameseFighting.jpg; sourceTree = "<group>"; };
+		6785FA6A22098A490030D372 /* Zander.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zander.jpg; sourceTree = "<group>"; };
+		6785FA6B22098A4A0030D372 /* reelBigFish.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = reelBigFish.jpg; sourceTree = "<group>"; };
+		6785FA7622098FB00030D372 /* chinees.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chinees.jpg; sourceTree = "<group>"; };
+		6785FA7822098FB00030D372 /* vegie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vegie.jpg; sourceTree = "<group>"; };
+		6785FA7922098FB10030D372 /* frieten.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = frieten.jpg; sourceTree = "<group>"; };
+		6785FA7F2209923F0030D372 /* pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pizza.png; sourceTree = "<group>"; };
+		6785FA80220992400030D372 /* pita.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pita.png; sourceTree = "<group>"; };
+		6785FA832209987D0030D372 /* alcohol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = alcohol.jpg; sourceTree = "<group>"; };
+		6785FA842209987D0030D372 /* frisbieren.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = frisbieren.jpg; sourceTree = "<group>"; };
+		6785FA852209987D0030D372 /* frisdrank.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = frisdrank.jpg; sourceTree = "<group>"; };
+		67A702312208343200F1E50A /* Annotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annotation.swift; sourceTree = "<group>"; };
+		67A70233220835B600F1E50A /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		67A702352208370A00F1E50A /* AnnotationDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationDAO.swift; sourceTree = "<group>"; };
+		67A7023722084FB100F1E50A /* VisFestival.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = VisFestival.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +138,7 @@
 		6717BD1922032A2200576652 /* IOS project Chiel */ = {
 			isa = PBXGroup;
 			children = (
+				677AF078220966DF00BD9125 /* Images */,
 				6717BD3622041F8F00576652 /* Controller */,
 				6717BD3522041F8200576652 /* Model */,
 				6717BD1A22032A2200576652 /* AppDelegate.swift */,
@@ -99,7 +146,6 @@
 				6717BD2122032A2400576652 /* Assets.xcassets */,
 				6717BD2322032A2400576652 /* LaunchScreen.storyboard */,
 				6717BD2622032A2400576652 /* Info.plist */,
-				6717BD3322035DE100576652 /* Schermafbeelding .png */,
 			);
 			path = "IOS project Chiel";
 			sourceTree = "<group>";
@@ -118,6 +164,8 @@
 				67586E8322045E4400A8C7C0 /* LineUp.swift */,
 				67586E8522045FBF00A8C7C0 /* LineUpDay.swift */,
 				67586E892204612400A8C7C0 /* LineUpDAO.swift */,
+				67A702312208343200F1E50A /* Annotation.swift */,
+				67A702352208370A00F1E50A /* AnnotationDAO.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -126,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				6717BD1C22032A2200576652 /* ViewController.swift */,
+				6785FA4F220981010030D372 /* TableViewCell.swift */,
 				6717BD372204201F00576652 /* PodiumViewController.swift */,
 				6717BD41220444AA00576652 /* ArtistViewController.swift */,
 				67586E8F22048A4F00A8C7C0 /* InfoViewController.swift */,
@@ -133,8 +182,36 @@
 				67586E81220450DA00A8C7C0 /* BarViewController.swift */,
 				67586E8B22047CFB00A8C7C0 /* LineUpViewController.swift */,
 				67586E8D22047F2100A8C7C0 /* LineUpTableViewCell.swift */,
+				67A70233220835B600F1E50A /* MapViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		677AF078220966DF00BD9125 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6785FA832209987D0030D372 /* alcohol.jpg */,
+				6785FA842209987D0030D372 /* frisbieren.jpg */,
+				6785FA852209987D0030D372 /* frisdrank.jpg */,
+				6785FA80220992400030D372 /* pita.png */,
+				6785FA7F2209923F0030D372 /* pizza.png */,
+				67A7023722084FB100F1E50A /* VisFestival.jpg */,
+				6785FA4A220970910030D372 /* Fishstage.png */,
+				6785FA49220970900030D372 /* Mainstage.png */,
+				6785FA6322098A470030D372 /* AdmiralFreebie.png */,
+				6785FA6822098A490030D372 /* EuropeanSeabass.jpeg */,
+				6785FA6722098A490030D372 /* Goldfish.jpg */,
+				6785FA6422098A470030D372 /* NorthernPike.jpg */,
+				6785FA6B22098A4A0030D372 /* reelBigFish.jpg */,
+				6785FA6922098A490030D372 /* SiameseFighting.jpg */,
+				6785FA6522098A480030D372 /* Swashbuckle.jpg */,
+				6785FA6622098A480030D372 /* SwordFish.jpg */,
+				6785FA6A22098A490030D372 /* Zander.jpg */,
+				6785FA7622098FB00030D372 /* chinees.jpg */,
+				6785FA7922098FB10030D372 /* frieten.jpg */,
+				6785FA7822098FB00030D372 /* vegie.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,10 +272,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6785FA6C22098A4A0030D372 /* AdmiralFreebie.png in Resources */,
+				6785FA82220992400030D372 /* pita.png in Resources */,
+				6785FA7022098A4A0030D372 /* Goldfish.jpg in Resources */,
 				6717BD2522032A2400576652 /* LaunchScreen.storyboard in Resources */,
+				6785FA882209987E0030D372 /* frisdrank.jpg in Resources */,
 				6717BD2222032A2400576652 /* Assets.xcassets in Resources */,
+				6785FA6F22098A4A0030D372 /* SwordFish.jpg in Resources */,
+				6785FA4C220970920030D372 /* Fishstage.png in Resources */,
+				6785FA862209987E0030D372 /* alcohol.jpg in Resources */,
+				6785FA7B22098FB10030D372 /* chinees.jpg in Resources */,
+				6785FA7222098A4A0030D372 /* SiameseFighting.jpg in Resources */,
+				6785FA872209987E0030D372 /* frisbieren.jpg in Resources */,
+				6785FA7422098A4A0030D372 /* reelBigFish.jpg in Resources */,
+				6785FA7322098A4A0030D372 /* Zander.jpg in Resources */,
 				6717BD2022032A2200576652 /* Main.storyboard in Resources */,
-				6717BD3422035DE100576652 /* Schermafbeelding .png in Resources */,
+				6785FA7122098A4A0030D372 /* EuropeanSeabass.jpeg in Resources */,
+				67A7023822084FB100F1E50A /* VisFestival.jpg in Resources */,
+				6785FA81220992400030D372 /* pizza.png in Resources */,
+				6785FA7E22098FB10030D372 /* frieten.jpg in Resources */,
+				6785FA4B220970920030D372 /* Mainstage.png in Resources */,
+				6785FA7D22098FB10030D372 /* vegie.jpg in Resources */,
+				6785FA6D22098A4A0030D372 /* NorthernPike.jpg in Resources */,
+				6785FA6E22098A4A0030D372 /* Swashbuckle.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,16 +314,20 @@
 				6717BD382204201F00576652 /* PodiumViewController.swift in Sources */,
 				6717BD4822044AAE00576652 /* SnackViewController.swift in Sources */,
 				67586E8E22047F2100A8C7C0 /* LineUpTableViewCell.swift in Sources */,
+				6785FA50220981010030D372 /* TableViewCell.swift in Sources */,
 				67586E8A2204612400A8C7C0 /* LineUpDAO.swift in Sources */,
 				67586E82220450DA00A8C7C0 /* BarViewController.swift in Sources */,
+				67A70234220835B600F1E50A /* MapViewController.swift in Sources */,
 				6717BD462204497F00576652 /* SnacksDAO.swift in Sources */,
 				6717BD42220444AA00576652 /* ArtistViewController.swift in Sources */,
 				6717BD3A220420A100576652 /* Podium.swift in Sources */,
 				67586E9022048A4F00A8C7C0 /* InfoViewController.swift in Sources */,
 				6717BD3C2204214400576652 /* PodiumsDAO.swift in Sources */,
 				6717BD442204493D00576652 /* Snack.swift in Sources */,
+				67A702362208370A00F1E50A /* AnnotationDAO.swift in Sources */,
 				67586E8C22047CFB00A8C7C0 /* LineUpViewController.swift in Sources */,
 				6717BD1D22032A2200576652 /* ViewController.swift in Sources */,
+				67A702322208343200F1E50A /* Annotation.swift in Sources */,
 				6717BD1B22032A2200576652 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,7 +473,7 @@
 		6717BD2A22032A2400576652 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "IOS project Chiel/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -390,7 +490,7 @@
 		6717BD2B22032A2400576652 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "IOS project Chiel/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
