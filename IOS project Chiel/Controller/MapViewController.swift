@@ -45,5 +45,32 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
             myLocation.requestWhenInUseAuthorization()
         }
     }
+    
+    func mapView(_ mapView: MKMapView, viewFor annotation: MKAnnotation) -> MKAnnotationView? {
+        
+        var annotationView = mapView.dequeueReusableAnnotationView(withIdentifier: "annotationView")
+        //var pinImage:UIImage
+        
+        if annotationView == nil {
+            annotationView = MKAnnotationView(annotation: annotation, reuseIdentifier: "annotationView")
+        }
+        if annotation.title == "Mainstage" ||  annotation.title == "Fishstage" {
+            annotationView?.image = UIImage(named: "Stage")!
+            
+        }
+        else if annotation.title == "Frisdrank" ||  annotation.title == "Alcohol" || annotation.title == "Frisdrank & Alcohol"{
+            annotationView?.image = UIImage(named: "Drank")!
+            
+        }
+        else if annotation.title == "Pizza" ||  annotation.title == "Frietjes" || annotation.title == "Pita" ||  annotation.title == "Chinees" || annotation.title == "Vegie"{
+            annotationView?.image = UIImage(named: "Food")!
+            
+        }
+        else if annotation === mapView.userLocation{
+            annotationView?.image = UIImage(named: "MyLocation")!
+        }
 
+        annotationView?.canShowCallout = true
+        return annotationView
+    }
 }
