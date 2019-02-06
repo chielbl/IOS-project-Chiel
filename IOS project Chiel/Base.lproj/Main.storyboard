@@ -29,7 +29,7 @@
                                     <constraint firstAttribute="height" constant="50" id="XD2-cn-uVN"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="Podiums">
+                                <state key="normal" title="Stages">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -184,18 +184,69 @@
             </objects>
             <point key="canvasLocation" x="1136.8" y="783.99014778325125"/>
         </scene>
-        <!--View Controller-->
+        <!--About-->
         <scene sceneID="r8g-Lu-Gp6">
             <objects>
-                <viewController id="oaW-hO-mU1" sceneMemberID="viewController">
+                <viewController title="About" id="oaW-hO-mU1" customClass="AboutViewController" customModule="IOS_project_Chiel" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3mE-Wv-OJY">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nZb-of-qGs">
+                                <rect key="frame" x="151" y="64" width="73" height="27"/>
+                                <fontDescription key="fontDescription" name="ArialHebrew-Bold" family="Arial Hebrew" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1tY-1w-QQD">
+                                <rect key="frame" x="20" y="191" width="335" height="400"/>
+                                <color key="backgroundColor" red="0.9292157888" green="0.80975037809999995" blue="0.022784158589999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="400" id="9ok-rR-FLp"/>
+                                </constraints>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" name="ArialHebrew" family="Arial Hebrew" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lme-u6-Ma1">
+                                <rect key="frame" x="30" y="641" width="90" height="22"/>
+                                <fontDescription key="fontDescription" name="ArialHebrew-Bold" family="Arial Hebrew" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nieuwpoort Belgium" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dHa-4l-DJJ">
+                                <rect key="frame" x="140" y="641" width="179" height="22"/>
+                                <fontDescription key="fontDescription" name="ArialHebrew" family="Arial Hebrew" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.9292157888" green="0.80975037809999995" blue="0.022784158589999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="whF-YR-UWe" firstAttribute="trailing" secondItem="1tY-1w-QQD" secondAttribute="trailing" constant="20" id="1pu-T3-5Xt"/>
+                            <constraint firstItem="nZb-of-qGs" firstAttribute="centerX" secondItem="3mE-Wv-OJY" secondAttribute="centerX" id="4tP-tc-cmt"/>
+                            <constraint firstItem="lme-u6-Ma1" firstAttribute="top" secondItem="1tY-1w-QQD" secondAttribute="bottom" constant="50" id="DG7-w8-aK1"/>
+                            <constraint firstItem="lme-u6-Ma1" firstAttribute="leading" secondItem="whF-YR-UWe" secondAttribute="leading" constant="30" id="H7d-x6-Cwe"/>
+                            <constraint firstItem="1tY-1w-QQD" firstAttribute="top" secondItem="nZb-of-qGs" secondAttribute="bottom" constant="100" id="Nzf-zD-X2l"/>
+                            <constraint firstItem="1tY-1w-QQD" firstAttribute="leading" secondItem="whF-YR-UWe" secondAttribute="leading" constant="20" id="O7C-fG-jRd"/>
+                            <constraint firstItem="nZb-of-qGs" firstAttribute="top" secondItem="whF-YR-UWe" secondAttribute="top" constant="20" id="had-on-bgA"/>
+                            <constraint firstItem="dHa-4l-DJJ" firstAttribute="leading" secondItem="lme-u6-Ma1" secondAttribute="trailing" constant="20" id="vfz-t7-fEH"/>
+                            <constraint firstItem="dHa-4l-DJJ" firstAttribute="top" secondItem="1tY-1w-QQD" secondAttribute="bottom" constant="50" id="wFe-v9-wDF"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="whF-YR-UWe"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="yjn-xc-iJb" appends="YES" id="qFG-SA-pOu"/>
+                        </connections>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HTB-S4-u8b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="yjn-xc-iJb">
+                    <connections>
+                        <action selector="panBackToHome:" destination="oaW-hO-mU1" id="Pa5-Yk-Q8a"/>
+                        <outlet property="delegate" destination="3mE-Wv-OJY" id="N7A-kh-04r"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1137" y="91"/>
         </scene>
@@ -256,14 +307,17 @@
                             </tableView>
                             <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="htW-pb-xbi">
                                 <rect key="frame" x="0.0" y="88" width="375" height="56"/>
+                                <gestureRecognizers/>
                                 <color key="barTintColor" red="0.9292157888" green="0.80975037809999995" blue="0.022784158589999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="words" keyboardType="namePhonePad"/>
                                 <connections>
                                     <outlet property="delegate" destination="0gC-2k-0AD" id="HZ8-Kw-5T3"/>
+                                    <outletCollection property="gestureRecognizers" destination="owJ-8w-UP2" appends="YES" id="fHX-Bz-g59"/>
                                 </connections>
                             </searchBar>
                         </subviews>
                         <color key="backgroundColor" red="0.24935474990000001" green="0.24121531839999999" blue="0.55320376159999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
                         <constraints>
                             <constraint firstItem="12b-PD-qrd" firstAttribute="trailing" secondItem="QrY-8k-Lzr" secondAttribute="trailing" id="EzN-CV-5hV"/>
                             <constraint firstAttribute="bottom" secondItem="12b-PD-qrd" secondAttribute="bottom" id="J5q-Qz-2el"/>
@@ -282,6 +336,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="31R-vo-DmS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="owJ-8w-UP2">
+                    <connections>
+                        <action selector="dropKeyborad:" destination="0gC-2k-0AD" id="7Yx-f8-IFI"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1928.8" y="90.886699507389167"/>
         </scene>
@@ -481,7 +540,7 @@
                                         <connections>
                                             <outlet property="imgView" destination="dFf-U6-NHB" id="1uz-Y2-DZX"/>
                                             <outlet property="lblTitle" destination="ZtJ-na-C9b" id="Rqm-GB-cT5"/>
-                                            <segue destination="Xth-yu-S2m" kind="showDetail" identifier="snackToMap" id="c6j-Aw-pOh"/>
+                                            <segue destination="Xth-yu-S2m" kind="show" identifier="sanckToMap" id="dl6-gX-RIU"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -500,7 +559,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="GF6-bQ-cp8"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Snacks" id="h5n-8c-6NI"/>
+                    <navigationItem key="navigationItem" title="Snacks" id="h5n-8c-6NI">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="8Jr-pE-awc"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="tblView" destination="br0-KM-V16" id="IFE-ie-vvv"/>
                     </connections>
@@ -533,7 +594,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="YWv-eT-xwS"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Map" id="kxg-KJ-Mfl"/>
+                    <navigationItem key="navigationItem" title="Map" id="kxg-KJ-Mfl">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="aWz-w0-SDD"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="mapView" destination="ZSU-f2-FM3" id="V04-cI-0kW"/>
                     </connections>
@@ -699,6 +762,6 @@
         <image name="VisFestival.jpg" width="679" height="960"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="HHK-1a-6RZ"/>
+        <segue reference="dl6-gX-RIU"/>
     </inferredMetricsTieBreakers>
 </document>

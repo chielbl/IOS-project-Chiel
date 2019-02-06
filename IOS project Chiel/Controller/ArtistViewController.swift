@@ -32,6 +32,9 @@ class ArtistViewController: UIViewController, UITabBarDelegate, UITableViewDataS
         
     }
     
+    @IBAction func dropKeyborad(_ sender: Any) {
+        SBSearchBar.resignFirstResponder()
+    }
     //Function for adding search
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         //Filteren van uit de lijst, naar de gezochte waarde

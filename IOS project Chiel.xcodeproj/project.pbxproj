@@ -54,6 +54,7 @@
 		67A70234220835B600F1E50A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A70233220835B600F1E50A /* MapViewController.swift */; };
 		67A702362208370A00F1E50A /* AnnotationDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A702352208370A00F1E50A /* AnnotationDAO.swift */; };
 		67A7023822084FB100F1E50A /* VisFestival.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 67A7023722084FB100F1E50A /* VisFestival.jpg */; };
+		67AA50D7220B876900CCEE51 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AA50D6220B876900CCEE51 /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -106,6 +107,7 @@
 		67A70233220835B600F1E50A /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		67A702352208370A00F1E50A /* AnnotationDAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationDAO.swift; sourceTree = "<group>"; };
 		67A7023722084FB100F1E50A /* VisFestival.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = VisFestival.jpg; sourceTree = "<group>"; };
+		67AA50D6220B876900CCEE51 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +185,7 @@
 				67586E8B22047CFB00A8C7C0 /* LineUpViewController.swift */,
 				67586E8D22047F2100A8C7C0 /* LineUpTableViewCell.swift */,
 				67A70233220835B600F1E50A /* MapViewController.swift */,
+				67AA50D6220B876900CCEE51 /* AboutViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 				6717BD3A220420A100576652 /* Podium.swift in Sources */,
 				67586E9022048A4F00A8C7C0 /* InfoViewController.swift in Sources */,
 				6717BD3C2204214400576652 /* PodiumsDAO.swift in Sources */,
+				67AA50D7220B876900CCEE51 /* AboutViewController.swift in Sources */,
 				6717BD442204493D00576652 /* Snack.swift in Sources */,
 				67A702362208370A00F1E50A /* AnnotationDAO.swift in Sources */,
 				67586E8C22047CFB00A8C7C0 /* LineUpViewController.swift in Sources */,

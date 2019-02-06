@@ -58,11 +58,11 @@ class MapViewController: UIViewController, MKMapViewDelegate, CLLocationManagerD
             annotationView?.image = UIImage(named: "Stage")!
             
         }
-        else if annotation.title == "Frisdrank" ||  annotation.title == "Alcohol" || annotation.title == "Frisdrank & Alcohol"{
+        else if annotation.title == "Soft drink" ||  annotation.title == "Alcohol" || annotation.title == "Soft drink & Alcohol"{
             annotationView?.image = UIImage(named: "Drank")!
             
         }
-        else if annotation.title == "Pizza" ||  annotation.title == "Frietjes" || annotation.title == "Pita" ||  annotation.title == "Chinees" || annotation.title == "Vegie"{
+        else if annotation.title == "Pizza" ||  annotation.title == "Frice" || annotation.title == "Pita" ||  annotation.title == "Chinees" || annotation.title == "Vegie"{
             annotationView?.image = UIImage(named: "Food")!
             
         }
