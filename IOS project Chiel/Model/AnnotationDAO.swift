@@ -27,7 +27,9 @@ class AnnotationDAO{
         let alcohol = Annotation.init(coordinate: CLLocationCoordinate2D.init(latitude: 51.163531, longitude: 2.755002), title: "Alcohol")
         let frisAlc = Annotation.init(coordinate: CLLocationCoordinate2D.init(latitude: 51.164177, longitude: 2.756783), title: "Soft drink & Alcohol")
         
-        annotationList = [mainStage, fishstage, pizza, frieten, pita, chinees, vegie, frisdrank, alcohol, frisAlc]
+        let wc = Annotation.init(coordinate: CLLocationCoordinate2D.init(latitude: 51.163990, longitude: 2.758881), title: "Toilets")
+        
+        annotationList = [mainStage, fishstage, pizza, frieten, pita, chinees, vegie, frisdrank, alcohol, frisAlc, wc]
         
     }
     

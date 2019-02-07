@@ -648,6 +648,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="backgroundColor" red="0.82319056989999995" green="0.81750231979999999" blue="0.92936390639999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <constraints>
                                                 <constraint firstItem="q3p-ZA-MEC" firstAttribute="trailing" secondItem="HdI-fE-Ssh" secondAttribute="trailingMargin" id="8lC-7x-IsV"/>
                                                 <constraint firstItem="yEk-mG-w4f" firstAttribute="leading" secondItem="HdI-fE-Ssh" secondAttribute="leadingMargin" id="HJI-iJ-gbr"/>
@@ -726,6 +727,7 @@
                                                 <constraint firstItem="8lt-KT-LzH" firstAttribute="centerY" secondItem="IBo-c5-x1J" secondAttribute="centerY" id="waQ-hG-c8h"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                         <connections>
                                             <outlet property="imgView" destination="AAh-xs-z5D" id="d0H-sL-dde"/>
                                             <outlet property="lblTitle" destination="8lt-KT-LzH" id="2aW-br-fQo"/>
@@ -762,6 +764,6 @@
         <image name="VisFestival.jpg" width="679" height="960"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="dl6-gX-RIU"/>
+        <segue reference="PI7-vy-7Y8"/>
     </inferredMetricsTieBreakers>
 </document>
